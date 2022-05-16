@@ -16,7 +16,7 @@ public class primerange
 			boolean prime=true;
 			for(int i=2;i<=num/2;i++)
 			{
-				if(i%2==0)
+				if(num%i==0)
 				{
 					prime=false;
 					break;
